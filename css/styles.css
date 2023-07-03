@@ -24,6 +24,10 @@ address:focus {
   font-size: 26px;
   font-family: Raleway;
   font-weight: var(--big-font-weight);
+  background: linear-gradient(to right, #1c87c9 42%, #000000 0%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 a.active-portofolio {

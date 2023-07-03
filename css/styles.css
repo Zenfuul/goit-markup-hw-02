@@ -1,5 +1,86 @@
 :root {
-  --font-family: "Roboto";
-  --button-font-weight: 500;
-  color: #212121;
+  --font-family: "Roboto", sans-serif;
+  --upper-font-weight: 500;
+  --big-font-weight: 700;
+  --small-font-weight: 400;
+  --most-color: #212121;
+  --small-color: #757575;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*.address {
+  color: var(--small-color);
+}
+
+.address:hover,
+address:focus {
+  color: #2196f3;
+}*/
+
+.logo {
+  font-size: 26px;
+  font-family: Raleway;
+  font-weight: var(--big-font-weight);
+}
+
+a.active-portofolio {
+  color: #2196f3;
+  font-size: 14px;
+  font-family: var(--font-family);
+  font-weight: var(--upper-font-weight);
+  line-height: normal;
+}
+
+.header-studio,
+.header-contacts {
+  color: var(--most-color);
+  font-size: 14px;
+  font-family: var(--font-family);
+  font-weight: var(--upper-font-weight);
+}
+
+.body-section {
+  font-family: var(--font-family);
+  color: var(--most-color);
+}
+
+a {
+  color: var(--small-color);
+}
+
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+
+button:hover,
+button:focus {
+  background-color: #2196f3;
+}
+
+.images-section .second-under-image {
+  color: var(--small-color);
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: var(--small-font-weight);
+}
+
+.images-section .first-under-image {
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: var(--big-font-weight);
+}
+
+.footer {
+  background: #2f303a;
+}
+
+.address-info {
+  color: #fff;
+  font-size: 14px;
+  font-family: var(--font-family);
+  font-weight: var(--small-font-weight);
 }
